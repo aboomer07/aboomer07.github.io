@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "My Personal Website"
+title                    : "Projects and Personal Website"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Andy Boomer"
@@ -25,7 +25,7 @@ url                      : https://aboomer07.github.io
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : aboomer07/aboomer07.github.io
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : /assets/Profile.png
+logo                     : /assets/Gorge.jpg
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -103,15 +103,15 @@ analytics:
 author:
   name             : "Andy Boomer"
   avatar           : /assets/Profile.png
-  bio              : "I am a recent gradute of Toulouse School of Economics, studying Econometrics. I am a Data Science and Economics enthusiast."
+  bio              : "Data and economics nerd, outdoor enthusiast, casual reader of city zoning maps."
   location         : "Portland, OR"
   email            : aboomer07@gmail.com
   links:
     # - label: "Email"
       # icon: "fas fa-fw fa-envelope-square"
       # url: "mailto:aboomer07@gmail.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
+    # - label: "Website"
+      # icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
     # - label: "Twitter"
       # icon: "fab fa-fw fa-twitter-square"
@@ -141,8 +141,8 @@ footer:
     # - label: "GitLab"
       # icon: "fab fa-fw fa-gitlab"
       # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
+    # - label: "Bitbucket"
+      # icon: "fab fa-fw fa-bitbucket"
       # url:
     # - label: "Instagram"
       # icon: "fab fa-fw fa-instagram"
