@@ -20,17 +20,18 @@ author_profile: false
 	</header>
 	<main>
 		<article>
+			This project was done in collaboration with Jacob Pichelmann, Camille Calandre, Nikita Marini, and Luca Poll during my masters program at the Toulouse School of Economics.
 			<h2>Project Overview</h2>
 			<p>
-				This project was for a final project in Nonparametric Econometric Methods during my masters program at the Toulouse School of Economics. Our prompt was to find any data, explain why splines and regularization methods were suited to that type of data, and fit the data to a smoothing spline. The paper examines the foundations of nonparametric regularization, smoothing splines, and cross validation. I present a theoretical analysis of these topics, as well as how they can be applied to time series data more generally. In the end, I fit a multivariate smoothing spline to hourly traffic data using the generalized additive model framework in R.
+				This project was the year long empirical project during my second year at the Toulouse School of Economics. We used a combination of two different types of epidemiological models, SIR and Time Since Infection, to study the efficacy of a popular public health metric of the novel coronavirus, SARS-COV2 (Covid- 19) under different methodological and disease conditions. To this end, we simulated several outbreaks, taking different assumptions for the underlying infectiousness of the disease, and estimating the rate of transmission in these scenarios. We then forecasted the progression of future cases given our estimators. We found that using a non-parametric estimator of the rate of transmission provides robustness when the shape of the underlying distribution of infectiousness is unknown. We also noted that the assumption of stable conditions makes disease outbreak forecasting in a generalized sense more difficult.
 			</p>
 			<h2>Data Sources</h2>
 			<p>
-				I found hourly traffic count data at the station id level from Kaggle, <a href="https://www.kaggle.com/jboysen/us-traffic-2015">here</a>. The data contained counts, flow direction, type of road, and characteristics of each station. Since the purpose of this project was time series analysis, I limited the scope of the analysis to one station id.
+				Data for France was gathered from the Sante Publique France <a href="https://www.data.gouv.fr/en/organizations/sante-publique-france/">here</a>. Data for the US was downloaded from the JHU CSSE COVID-19 Dataset on Github <a href="https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data">here</a>.
 			</p>
 			<h2>Tools Used</h2>
 			<p>
-				This paper was built using Latex, and the coding was done in R. MGCV is the library I used in R for applying generalized additive models.
+				The paper was built using Latex. The coding was done in R using mainly the EpiEstim, fitdistrplus, KernSmooth, zoo, tseries, and forecast packages.
 			</p>
 		</article>
 	</main>
