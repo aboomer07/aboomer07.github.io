@@ -1,0 +1,38 @@
+---
+layout: single
+author_profile: false
+---
+
+<head>
+	<title>Computer Vision Sustainability Data Science Challenge | My Website</title>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="/assets/css/main.css" />
+</head>
+
+<body>
+	<header>
+	<h1>Satellite Image Recognition (Top 3)</h1>
+		<p><small>Project Dates: 
+			<em>October 2021 - December 2021</em></small>
+		</p>
+		<a href="/assets/ProjectFiles/SDSC_T24.pdf" rel="nofollow noopener noreferrer me"><img src="/assets/pdf_icon.jpg" width="30px"><span class="label"></span></a>
+		<a href="https://github.com/aboomer07/SemanticSegmentation" rel="nofollow noopener noreferrer me"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label"></span></a>
+	</header>
+	<main>
+		<article>
+			This project was in collaboration with a team member for a sustainability focused data science competition sponsored by Microsoft and Capgemini.
+			<h2>Project Overview</h2>
+			<p>
+				This project involved developing an end-to-end computer vision pipeline for the purpose of predicting 18 land use labels related to carbon emissions, biodiversity, and solar potential. To this end, my partner and I customized a popular high level git repository, adding further methods tailored to our problem setting. We developed what seems to be, after conducting a review of the relevant resources, a novel method for balancing multi-label image data. This method used the earth movers distance metric to iteratively augment only the set of images within the dataset that brings the overall label distribution closer to a uniform. Additionally, we tested several popular semantic segmentation deep learning models, including Unet, Pspnet, and Segnet, with backbones including resnet50 and vgg16, among others. Our final model, which achieved the highest out of sample F1-score in the competition, was a Resnet50_Unet. Additionally, we implemented a custom method for mapping the set of labels to a reduced space if the model users are interested in focusing on a certain outcome, such as emissions, in particular.
+			</p>
+			<h2>Data Sources</h2>
+			<p>
+				The satellite images and true pixel level labels were provided by the competition sponsors. The data set was small, ~400 images in total, and significantly unbalanced.
+			</p>
+			<h2>Tools Used</h2>
+			<p>
+				As part of the challenge, we were given a budget to train our image models using the Azure Databricks cloud computing platform. The coding was done using python within the databricks notebook environment. Libraries used included pandas, tensorflow, keras, imgaug, and others.
+			</p>
+		</article>
+	</main>
+</body>
