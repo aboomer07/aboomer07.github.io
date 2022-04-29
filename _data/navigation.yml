@@ -4,3 +4,7 @@ main:
     url: /_pages/Projects/
   - title: "Resume"
     url: /assets/Resume.pdf
+  - title: "MLTracking"
+    url: /_pages/ML/
+  - title: "EmissionsModel"
+    url: /_pages/ML/emissions
